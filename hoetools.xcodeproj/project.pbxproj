@@ -141,6 +141,7 @@
 				BF9808F61C0F0B04007B2F75 /* Frameworks */,
 				BF9808F71C0F0B04007B2F75 /* Headers */,
 				BF9808F81C0F0B04007B2F75 /* Resources */,
+				BF235C961C0F11AC00E5049B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -244,6 +245,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF235C961C0F11AC00E5049B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n#版本自动增加\n#Script/auto_increase_version.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF9808F51C0F0B04007B2F75 /* Sources */ = {
