@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF9808FE1C0F0B04007B2F75 /* hoetools.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9808FD1C0F0B04007B2F75 /* hoetools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF9809051C0F0B04007B2F75 /* hoetools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9808FA1C0F0B04007B2F75 /* hoetools.framework */; };
+		BF98090A1C0F0B04007B2F75 /* hoetoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9809091C0F0B04007B2F75 /* hoetoolsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF2F77CE1C0F0B80001833A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2F77C91C0F0B80001833A2 /* blackland.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF2DCC0B1C0BF7190058D888;
+			remoteInfo = blackland;
+		};
+		BF2F77D01C0F0B80001833A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2F77C91C0F0B80001833A2 /* blackland.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF2DCC151C0BF71A0058D888;
+			remoteInfo = blacklandTests;
+		};
+		BF9809061C0F0B04007B2F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9808F11C0F0B04007B2F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9808F91C0F0B04007B2F75;
+			remoteInfo = hoetools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF2F77C91C0F0B80001833A2 /* blackland.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = blackland.xcodeproj; path = ../../blackLand/blackland.xcodeproj; sourceTree = "<group>"; };
+		BF9808FA1C0F0B04007B2F75 /* hoetools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hoetools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9808FD1C0F0B04007B2F75 /* hoetools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hoetools.h; sourceTree = "<group>"; };
+		BF9808FF1C0F0B04007B2F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9809041C0F0B04007B2F75 /* hoetoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hoetoolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9809091C0F0B04007B2F75 /* hoetoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoetoolsTests.swift; sourceTree = "<group>"; };
+		BF98090B1C0F0B04007B2F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9808F61C0F0B04007B2F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9809011C0F0B04007B2F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9809051C0F0B04007B2F75 /* hoetools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF2F77CA1C0F0B80001833A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2F77CF1C0F0B80001833A2 /* blackland.framework */,
+				BF2F77D11C0F0B80001833A2 /* blacklandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9808F01C0F0B04007B2F75 = {
+			isa = PBXGroup;
+			children = (
+				BF9809141C0F0B21007B2F75 /* Dependency */,
+				BF9808FC1C0F0B04007B2F75 /* hoetools */,
+				BF9809081C0F0B04007B2F75 /* hoetoolsTests */,
+				BF9808FB1C0F0B04007B2F75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9808FB1C0F0B04007B2F75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9808FA1C0F0B04007B2F75 /* hoetools.framework */,
+				BF9809041C0F0B04007B2F75 /* hoetoolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9808FC1C0F0B04007B2F75 /* hoetools */ = {
+			isa = PBXGroup;
+			children = (
+				BF9808FD1C0F0B04007B2F75 /* hoetools.h */,
+				BF9808FF1C0F0B04007B2F75 /* Info.plist */,
+			);
+			path = hoetools;
+			sourceTree = "<group>";
+		};
+		BF9809081C0F0B04007B2F75 /* hoetoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9809091C0F0B04007B2F75 /* hoetoolsTests.swift */,
+				BF98090B1C0F0B04007B2F75 /* Info.plist */,
+			);
+			path = hoetoolsTests;
+			sourceTree = "<group>";
+		};
+		BF9809141C0F0B21007B2F75 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				BF2F77C91C0F0B80001833A2 /* blackland.xcodeproj */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BF9808F71C0F0B04007B2F75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9808FE1C0F0B04007B2F75 /* hoetools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BF9808F91C0F0B04007B2F75 /* hoetools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF98090E1C0F0B04007B2F75 /* Build configuration list for PBXNativeTarget "hoetools" */;
+			buildPhases = (
+				BF9808F51C0F0B04007B2F75 /* Sources */,
+				BF9808F61C0F0B04007B2F75 /* Frameworks */,
+				BF9808F71C0F0B04007B2F75 /* Headers */,
+				BF9808F81C0F0B04007B2F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hoetools;
+			productName = hoetools;
+			productReference = BF9808FA1C0F0B04007B2F75 /* hoetools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF9809031C0F0B04007B2F75 /* hoetoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9809111C0F0B04007B2F75 /* Build configuration list for PBXNativeTarget "hoetoolsTests" */;
+			buildPhases = (
+				BF9809001C0F0B04007B2F75 /* Sources */,
+				BF9809011C0F0B04007B2F75 /* Frameworks */,
+				BF9809021C0F0B04007B2F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9809071C0F0B04007B2F75 /* PBXTargetDependency */,
+			);
+			name = hoetoolsTests;
+			productName = hoetoolsTests;
+			productReference = BF9809041C0F0B04007B2F75 /* hoetoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9808F11C0F0B04007B2F75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = fruit;
+				TargetAttributes = {
+					BF9808F91C0F0B04007B2F75 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BF9809031C0F0B04007B2F75 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = BF9808F41C0F0B04007B2F75 /* Build configuration list for PBXProject "hoetools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF9808F01C0F0B04007B2F75;
+			productRefGroup = BF9808FB1C0F0B04007B2F75 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BF2F77CA1C0F0B80001833A2 /* Products */;
+					ProjectRef = BF2F77C91C0F0B80001833A2 /* blackland.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BF9808F91C0F0B04007B2F75 /* hoetools */,
+				BF9809031C0F0B04007B2F75 /* hoetoolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BF2F77CF1C0F0B80001833A2 /* blackland.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = blackland.framework;
+			remoteRef = BF2F77CE1C0F0B80001833A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BF2F77D11C0F0B80001833A2 /* blacklandTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = blacklandTests.xctest;
+			remoteRef = BF2F77D01C0F0B80001833A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9808F81C0F0B04007B2F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9809021C0F0B04007B2F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9808F51C0F0B04007B2F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9809001C0F0B04007B2F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF98090A1C0F0B04007B2F75 /* hoetoolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF9809071C0F0B04007B2F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9808F91C0F0B04007B2F75 /* hoetools */;
+			targetProxy = BF9809061C0F0B04007B2F75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF98090C1C0F0B04007B2F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF98090D1C0F0B04007B2F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF98090F1C0F0B04007B2F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = hoetools/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fruit.hoetools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BF9809101C0F0B04007B2F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = hoetools/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fruit.hoetools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BF9809121C0F0B04007B2F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hoetoolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fruit.hoetoolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF9809131C0F0B04007B2F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hoetoolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fruit.hoetoolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9808F41C0F0B04007B2F75 /* Build configuration list for PBXProject "hoetools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF98090C1C0F0B04007B2F75 /* Debug */,
+				BF98090D1C0F0B04007B2F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF98090E1C0F0B04007B2F75 /* Build configuration list for PBXNativeTarget "hoetools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF98090F1C0F0B04007B2F75 /* Debug */,
+				BF9809101C0F0B04007B2F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9809111C0F0B04007B2F75 /* Build configuration list for PBXNativeTarget "hoetoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9809121C0F0B04007B2F75 /* Debug */,
+				BF9809131C0F0B04007B2F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9808F11C0F0B04007B2F75 /* Project object */;
+}
